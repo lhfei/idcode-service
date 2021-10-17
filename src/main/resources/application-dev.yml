@@ -18,4 +18,4 @@ spring:
       file-size-threshold: 2KB
       max-file-size: 20MB
       max-request-size: 25MB 
-driver:  chrome:    path: D:\\DevProfile\\ChromeDriver\\chromedriver_91.exe
+driver:  chrome:    path: D:\\DevProfile\\ChromeDriver\\chromedriver_93.exe
