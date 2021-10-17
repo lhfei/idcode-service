@@ -1,0 +1,21 @@
+server:
+  port: 12000
+  servlet:
+    context-path: /
+
+# Logging Settings
+logging:
+  level:
+    '[cn.lhfei.idcode]': info
+    '[org.springframework]': info
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"  logback:    rollingpolicy:      max-file-size: 1024000
+
+
+spring:
+  servlet:    multipart:      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 20MB
+      max-request-size: 25MB 
+driver:  chrome:    path: D:\\DevProfile\\ChromeDriver\\chromedriver_91.exe
